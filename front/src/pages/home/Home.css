@@ -1,0 +1,36 @@
+.linking {
+    text-decoration: none;
+  }
+  
+  #sky {
+    height: 70vh;
+    background-image: url("../../asset/home.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 45%;
+    background-attachment: fixed;
+  }
+  
+  #sky .mountain_btm_right {
+    right: 0;
+    bottom: 0;
+    height: 18rem;
+    z-index: 0;
+    background-image: url("../../asset/bg_home.png");
+  }
+  #sky .mountain_btm_left {
+    left: 0;
+    bottom: 0;
+    height: 18rem;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    background-image: url("../../asset/bg_home.png");
+    z-index: 0;
+  }
+  #sky .mountain_btm_mid {
+    left: 0;
+    right: 5rem;
+    bottom: -5rem;
+    height: 18rem;
+    background-image: url("../../asset/bg_home.png");
+  }

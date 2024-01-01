@@ -1,0 +1,15 @@
+body .SIGNUP {
+    background-image: url("../../asset/bg_signup.png");
+  }
+  
+  .signupLogin {
+    background-image: url("../../asset/Logo_vertical.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .wrapper {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }

@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anuphan:wght@100;200;300;400;500;600;700&family=Itim&family=Kanit:wght@100&family=Lilita+One&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Mitr&family=Prompt:wght@100&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&family=Sigmar&display=swap");
+.swipe {
+  position: absolute;
+}
+
+.cardContainer {
+  display: flex;
+  width: 1485px;
+  height: 805px;
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  left: 90px;
+  top: 520px;
+  gap: 10px;
+  position: absolute;
+}
+
+.keyword {
+  background-color: #f1e189;
+  border-radius: 20px;
+  width: 150px;
+  font-size: 16pt;
+  align-items: center;
+}
+
+.cardContainer h3 {
+  color: white;
+  font-size: 48pt;
+  text-shadow: 0px 0px 6px rgba(0, 0, 0, 2);
+  margin-right: 30px;
+}
+
+.card {
+  display: flex;
+  position: relative;
+  width: 90vw;
+  max-width: 1500px;
+  min-height: 800px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 15%,
+    rgba(0, 0, 0, 0) 35%
+  );
+  background-size: cover;
+  background-position: center;
+}
+
+.buttons {
+  position: relative;
+  top: 600px;
+  transition: 200ms;
+  font-weight: bolder;
+}
+
+.buttons button {
+  color: white;
+  background: none;
+  transition: 200ms;
+  font-weight: bolder;
+  border: none;
+  margin: 40px;
+  align-items: center;
+}
+
+.buttons button:hover {
+  transform: scale(1.15);
+}
+
+.namecontainer {
+  display: flex;
+  margin-top: 120px;
+  margin-left: 90px;
+  align-items: center;
+}
+
+.namecontainer button {
+  display: flex;
+  justify-content: center;
+  background-color: #fe547b;
+  color: white;
+  border-radius: 90px;
+  width: 150px;
+  font-size: 16pt;
+}
+
+.allbutton {
+  display: block;
+}
+
+.allbutton.hidden {
+  display: none;
+}
+
+
+
+
